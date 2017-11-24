@@ -15,4 +15,6 @@ after_succes: npm test
 
 notifications:
   email:
-    - dennis.wolters@upb.de
+    recipients:
+      - dennis.wolters@upb.de
+      - kadiray.k@hotmail.com
