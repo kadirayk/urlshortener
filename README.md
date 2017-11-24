@@ -1,4 +1,4 @@
-https://api.travis-ci.org/kadirayk/urlshortener.svg?branch=master
+[![Build Status](https://travis-ci.org/kadirayk/urlshortener.svg?branch=master)](https://travis-ci.org/kadirayk/urlshortener)
 # URL Shortener - Tutorial project for learning git, github, Travis CI, and Docker. 
 URL Shortener is a small web service exposing a RESTful HTTP API to create, resolve, and delete short URLs hosted on your own domain. It is written using JavaScript (ES6) and runs on Node.js.
 
