@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "7"
+env:
+  - AUTH=false USER=test PASSWORD=secret
+  - AUTH=true USER=test PASSWORD=secret
+
+install: npm install
+
+before_script: npm run lint
+
+script: npm start
+
+after_succes: npm test
