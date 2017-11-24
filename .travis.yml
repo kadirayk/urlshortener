@@ -12,3 +12,8 @@ before_script: npm run lint
 script: npm start
 
 after_succes: npm test
+
+notifications:
+  email:
+    - dennis.wolters@upb.de
+	- kadiray.k@hotmail.com
